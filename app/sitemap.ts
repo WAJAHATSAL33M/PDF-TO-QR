@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function sitemap():MetadataRoute.Sitemap{return ['','/qr-studio','/help','/privacy','/terms'].map(p=>({url:'https://pdftoqr.vercel.app'+p}));}
