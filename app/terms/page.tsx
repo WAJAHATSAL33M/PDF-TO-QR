@@ -1,0 +1,1 @@
+export default function Terms(){return <main className="wrap prose"><h1>Terms of use</h1><p>Only upload documents you own or have permission to distribute. Do not upload illegal, harmful or confidential material. Document availability depends on the server and its storage. Keep a backup and test your QR code before distributing it.</p></main>}

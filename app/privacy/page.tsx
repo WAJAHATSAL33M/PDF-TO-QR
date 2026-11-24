@@ -1,0 +1,1 @@
+export default function Privacy(){return <main className="wrap prose"><h1>Privacy</h1><p>Uploaded PDFs are stored on the server and accessible to anyone with the document link. Do not upload confidential or sensitive files.</p><p>QR customization and logo processing take place in your browser. This version does not provide accounts or automatic file deletion.</p></main>}
