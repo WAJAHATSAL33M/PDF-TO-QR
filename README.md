@@ -1,7 +1,5 @@
 # PDF TO QR
 
-Next.js application for sharing PDF documents through customizable QR codes.
+Next.js PDF QR generator. Run `npm install` and `npm run dev`.
 
-Development: `npm install` then `npm run dev`.
-
-Uploads use local persistent storage for Node.js self-hosting. Configure `PUBLIC_BASE_URL` to your public HTTPS origin and `UPLOAD_DIR` to a persistent writable directory. Do not deploy local storage to ephemeral serverless instances. Uploaded documents are public to anyone with the link. Production requires abuse controls, quotas and a retention policy.
+Production: connect a public Vercel Blob store, which supplies BLOB_READ_WRITE_TOKEN. PDFs are accessible to anyone with their link. Server uploads are limited to 4 MB. Local Node.js development can use UPLOAD_DIR and PUBLIC_BASE_URL. Never commit credentials. Configure abuse prevention, upload quotas and retention before opening public uploads.
